@@ -15,7 +15,7 @@ _start:
         sub rsp, 16 #allocating
 
         mov word ptr [rsp], 2
-        mov word  ptr [rsp + 2], 0x401F # port 80 big endian
+        mov word  ptr [rsp + 2], 0x401F # port 8000
         mov dword ptr [rsp + 4], 0
         mov qword ptr [rsp + 8], 0
 
